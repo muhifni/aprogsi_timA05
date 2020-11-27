@@ -13,6 +13,7 @@ nav {
     position: sticky;
     z-index: 10;
     top: 0px;
+    
 }
 
 .container {
@@ -55,6 +56,53 @@ nav {
     margin-right: 18em;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+    display: none;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    color: black;
+  }
+
+  .topnav #myLinks a{
+    color: black;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #192a56;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #192a56;
+    color: white;
+  }
+
+  .topnav .fa{
+    color: #fff;
+  }
 
 .head-wrapper{
     background-color: #1abc9c;
