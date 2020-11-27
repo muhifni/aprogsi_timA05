@@ -178,4 +178,8 @@
     .portfolio-wrapper h2, .about-wrapper h2, .contact-wrapper h2 {
         font-size: 40px;
     }
+    
+    .icon-head img {
+        width: 35%;
+    }
 }
