@@ -121,18 +121,19 @@
 
 @media (max-width:425px){
     nav{
-        height: 134px;
-        text-align: center;
+        display: none;
     }
 
-    .nav-right {
-        float: none;
-        margin-right: 0em;
+    #nav-link {
+       display: none;
     }
 
-    .nav-left {
-        float: none;
+    .nav-left {        
         margin-left: -13em;        
+    }
+
+    .topnav{
+        display: block !important;
     }
 
     .location, .sosmed {
